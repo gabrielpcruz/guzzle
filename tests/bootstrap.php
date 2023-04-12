@@ -4,7 +4,7 @@ namespace {
     setlocale(LC_ALL, 'C');
 }
 
-namespace GuzzleHttp\Test {
+namespace GuzzleHttp\Test  {
     require __DIR__ . '/../vendor/autoload.php';
     require __DIR__ . '/Server.php';
     use GuzzleHttp\Tests\Server;
